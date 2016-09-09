@@ -10,7 +10,7 @@ public class GUI {
 	frame.setBounds(100, 100, 400, 260);
 	frame.setLocationRelativeTo(null);
 	frame.setVisible(true);
-	frame.setTitle("Artist Connect");
+	frame.setTitle("Artist Mingle");
 	frame.setLayout(new GridLayout(5,2));
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	
@@ -26,7 +26,7 @@ public class GUI {
 	panel4.setLayout(new FlowLayout());
 	panel5.setLayout(new FlowLayout());
 
-	JLabel welcome = new JLabel("Welcome to Artist Connect");
+	JLabel welcome = new JLabel("Welcome to Artist Mingle");
 	JButton input = new JButton("Input Data");
 	JButton edit = new JButton("Edit/Delete Data");
 	JButton search = new JButton("Search");
