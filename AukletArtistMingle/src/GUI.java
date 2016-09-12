@@ -1,10 +1,11 @@
 import java.awt.*;
+import java.awt.event.*;
 
 import javax.swing.*;
 
-public class GUI {
+public class GUI implements ActionListener{
 
-	public static void main(String[] args) {
+	public GUI() {
 		
 	JFrame frame = new JFrame();
 	frame.setBounds(100, 100, 400, 260);
@@ -48,6 +49,12 @@ public class GUI {
 	frame.add(panel4);
 	frame.add(panel5);
 	
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }
