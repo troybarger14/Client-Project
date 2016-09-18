@@ -1,0 +1,224 @@
+<Project>
+  <Name>UML</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Team Auklet</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Artist</Name>
+        <Access>Public</Access>
+        <Location left="505" top="29" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>inputArtist</Name>
+        <Access>Public</Access>
+        <Location left="97" top="168" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void lastName()</Member>
+        <Member type="Method">public void firstName()</Member>
+        <Member type="Method">public void occupation()</Member>
+        <Member type="Method">public void dateOfBirth()</Member>
+        <Member type="Method">public void gender()</Member>
+        <Member type="Method">public void notes()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>InputConnection</Name>
+        <Access>Public</Access>
+        <Location left="291" top="168" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void PersonOne()</Member>
+        <Member type="Method">public void PersonTwo()</Member>
+        <Member type="Method">public void date()</Member>
+        <Member type="Method">public void typeOfConnection()</Member>
+        <Member type="Method">public void notes()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SearchConnections</Name>
+        <Access>Public</Access>
+        <Location left="610" top="420" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void personOne()</Member>
+        <Member type="Method">public void personTwo()</Member>
+        <Member type="Method">public void refineSearch()</Member>
+        <Member type="Method">public void date()</Member>
+        <Member type="Method">public void type()</Member>
+        <Member type="Method">public void connections()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ArtistProfile</Name>
+        <Access>Public</Access>
+        <Location left="152" top="420" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void edit()</Member>
+        <Member type="Method">public void newSearch()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SearchArtist</Name>
+        <Access>Public</Access>
+        <Location left="407" top="420" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void name()</Member>
+        <Member type="Method">public void location()</Member>
+        <Member type="Method">public void activeDuring()</Member>
+        <Member type="Method">public void gender()</Member>
+        <Member type="Method">public void occupation()</Member>
+        <Member type="Method">public void search()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EditandDeleteArtist</Name>
+        <Access>Public</Access>
+        <Location left="963" top="168" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void choosePerson()</Member>
+        <Member type="Method">public void lastName()</Member>
+        <Member type="Method">public void firstName()</Member>
+        <Member type="Method">public void occupation()</Member>
+        <Member type="Method">public void dateOfBirth()</Member>
+        <Member type="Method">public void gender()</Member>
+        <Member type="Method">public void notes()</Member>
+        <Member type="Method">public void connectionWith()</Member>
+        <Member type="Method">public void connectionType()</Member>
+        <Member type="Method">public void connectionDate()</Member>
+        <Member type="Method">public void save()</Member>
+        <Member type="Method">public void delete()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Export</Name>
+        <Access>Public</Access>
+        <Location left="1157" top="168" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void exportType()</Member>
+        <Member type="Method">public void confirmExport()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ImportData</Name>
+        <Access>Public</Access>
+        <Location left="762" top="168" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void browseFile()</Member>
+        <Member type="Method">public void confirmImport()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="2" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>479</X>
+          <Y>120</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>189</X>
+          <Y>139</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>189</X>
+          <Y>119</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="5" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="3" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="4" second="5">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="8" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>843</X>
+          <Y>133</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>843</X>
+          <Y>80</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="6" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1040</X>
+          <Y>89</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1040</X>
+          <Y>80</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="7" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1231</X>
+          <Y>143</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1231</X>
+          <Y>80</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
